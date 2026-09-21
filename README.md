@@ -27,7 +27,7 @@ From there, I checked how concordant signatures were across the 10 NMF runs, mat
 
 Figure 2 - Run Similarity
 
-![Run Similarity](figures/run_similarity.png)
+![Run Similarity](figures/similarity.png)
 
 A heatmap of relative signature exposure per sample showed that SBS13 and SBS5 were the dominant signature in the largest share of samples.
 
