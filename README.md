@@ -19,7 +19,7 @@ Starting out, I first looked at some basic dataset statistics. There were 414 sa
 
 Figure 1 - Histogram of SNP distribution
 
-![SNP Distribution](figures/snp_counts.pdf)
+![SNP Distribution](figures/snp_counts.png)
 
 Across the entire dataset, there were: 114,367 SNPs; 2,010 deletions; and 674 insertions.
 
@@ -27,44 +27,44 @@ From there, I checked how concordant signatures were across the 10 NMF runs, mat
 
 Figure 2 - Run Similarity
 
-![Run Similarity](figures/run_similarity.pdf)
+![Run Similarity](figures/run_similarity.png)
 
 A heatmap of relative signature exposure per sample showed that SBS13 and SBS5 were the dominant signature in the largest share of samples.
 
 Figure 3 - Signature Proportions
 
-![Signature Proportions](figures/signature_proportions.pdf)
+![Signature Proportions](figures/signature_proportions.png)
 
 After that, I correlated each signature's exposure against SNP burden per sample. SBS5 had a Spearman correlation of 0.42 (adjusted p-value 9.97e-19), SBS13 had a Spearman correlation of 0.86 (adjusted p-value 5.63e-123), SBS10 had a Spearman correlation of 0.26 (adjusted p-value 1.62e-07), SBS1 had a Spearman correlation of -0.06 (adjusted p-value 2.21e-01, not significant), and SBS2 had a Spearman correlation of 0.64 (adjusted p-value 2.34e-48).
 
 Figure 4 - SBS5 mutation burden
 
-![SBS5 mutation burden](figures/SBS5_mutation_burden.pdf)
+![SBS5 mutation burden](figures/SBS5_mutation_burden.png)
 
 Figure 5 - SBS10 mutation burden
 
-![SBS10 mutation burden](figures/SBS10_mutation_burden.pdf)
+![SBS10 mutation burden](figures/SBS10_mutation_burden.png)
 
 Figure 6 - SBS13 mutation burden
 
-![SBS1 mutation burden](figures/SBS13_mutation_burden.pdf)
+![SBS1 mutation burden](figures/SBS13_mutation_burden.png)
 
 Figure 7 - SBS1 mutation burden
 
-![SBS1 mutation burden](figures/SBS1_mutation_burden.pdf)
+![SBS1 mutation burden](figures/SBS1_mutation_burden.png)
 
 Figure 8 - SBS2 mutation burden
 
-![SBS2 mutation burden](figures/SBS2_mutation_burden.pdf)
+![SBS2 mutation burden](figures/SBS2_mutation_burden.png)
 
 
 The most similar signatures according to the cosine similarity plot are SBS5 (S1) with a similarity of 0.92, SBS13 (S2) with a similarity of 0.92, SBS10 (S3) with a similarity of 0.98, SBS1 (S4) with a similarity of 0.94, and SBS2 (S5) with a similarity of 0.97.
 
 Figure 9 - Cosine Similarity
-![Cosine Similarity](figures/cosine_similarity_plot.pdf)
+![Cosine Similarity](figures/cosine_similarity_plot.png)
 
 Figure 10 - Signature Contributions
-![Signature Contributions](figures/signature_contributions.pdf)
+![Signature Contributions](figures/signature_contributions.png)
 
 Looking at COSMIC, SBS5 is a clock-like signature with unknown aetiology. SBS13 is attributed to the AID/APOBEC family of cytosine deaminases. SBS10 (matching COSMIC SBS10a/10b) reflects polymerase epsilon exonuclease domain mutations. SBS1 arises from spontaneous deamination of 5-methylcytosine and is also a clock like signature. SBS2 is due to activity of the APOBEC family of cytidine deaminases.
 
